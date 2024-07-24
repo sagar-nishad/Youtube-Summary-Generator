@@ -1,0 +1,64 @@
+.youtube-summary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content at the top */
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .input-container {
+    width: 60%;
+    margin-bottom: 20px; /* Add space between input and summary */
+    text-align: center; /* Center text */
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .input-container button {
+    width: 80%; /* Make button 80% width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-container button:disabled {
+    background-color: #555555;
+  }
+  
+  .summary-container {
+    width: 80%;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .summary-container ul {
+    list-style-type: disc; /* Use bullet points for summary points */
+    padding-left: 20px; /* Add left padding to align with bullet points */
+  }
+  
+  .summary-container li {
+    margin-bottom: 5px; /* Add space between summary points */
+  }
+  
+  .error {
+    color: red;
+  }
+  
